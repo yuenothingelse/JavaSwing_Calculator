@@ -183,47 +183,61 @@ public class SwingCalculator extends JFrame {
     }
 
     private void setOperator(String op) {
-        try {
-            if (!operator.isEmpty() && !startNewNumber) {
-                calculate();
-            }
-            firstNumber = parse(currentInput);
-            operator = op;
-            startNewNumber = true;
-        } catch (Exception ignored) {}
-    }
+    try {
+        if (!operator.isEmpty() && !startNewNumber) {
+            calculate();
+        }
+
+        firstNumber = parse(currentInput);
+        operator = op;
+        startNewNumber = true;
+
+    } catch (Exception ignored) {}
+}
 
     private void calculate() {
-        if (operator.isEmpty()) return;
+    if (operator.isEmpty()) return;
 
-        try {
-            double secondNumber = parse(currentInput);
-            double result;
+    try {
+        double secondNumber = parse(currentInput);
+        double result;
 
-            switch (operator) {
-                case "+" -> result = firstNumber + secondNumber;
-                case "-" -> result = firstNumber - secondNumber;
-                case "*" -> result = firstNumber * secondNumber;
-                case "/" -> {
-                    if (secondNumber == 0) {
-                        display.setText("Tidak terdefinisi");
-                        operator = "";
-                        startNewNumber = true;
-                        return;
-                    }
-                    result = firstNumber / secondNumber;
+        switch (operator) {
+
+            case "+" -> result = firstNumber + secondNumber;
+            case "-" -> result = firstNumber - secondNumber;
+            case "*" -> result = firstNumber * secondNumber;
+            case "/" -> {
+                if (secondNumber == 0) {
+                    display.setText("Tidak terdefinisi");
+                    operator = "";
+                    startNewNumber = true;
+                    return;
                 }
-                case "%" -> result = firstNumber * secondNumber / 100.0;
-                default -> { return; }
+
+                result = firstNumber / secondNumber;
             }
 
-            currentInput = format(result);
-            display.setText(currentInput);
-            operator = "";
-            startNewNumber = true;
+            case "%" -> {
+                if (startNewNumber) {
+                    result = firstNumber / 100.0;
+                } else {
+                    result = firstNumber * secondNumber / 100.0;
+                }
+            }
 
-        } catch (Exception ignored) {}
-    }
+            default -> {
+                return;
+            }
+        }
+
+        currentInput = format(result);
+        display.setText(currentInput);
+        operator = "";
+        startNewNumber = true;
+
+    } catch (Exception ignored) {}
+}
 
     private void clear() {
         currentInput = "0";
