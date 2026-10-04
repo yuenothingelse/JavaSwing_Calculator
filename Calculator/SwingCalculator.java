@@ -43,7 +43,7 @@ public class SwingCalculator extends JFrame {
         top.add(display, BorderLayout.CENTER);
 
         // menu button 
-        JButton menuButton = createCircleButton("◷", 58, FUNCTION);
+        JButton menuButton = createCircleButton("⚙", 58, FUNCTION);
         menuButton.setToolTipText("Mode kalkulator");
         menuButton.addActionListener(e -> showModeMenu(menuButton));
 
