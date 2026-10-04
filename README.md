@@ -1,7 +1,18 @@
+```text
+██╗  ██╗███████╗██╗      ██████╗ ███╗   ███╗██████╗  ██████╗ ██╗  ██╗
+██║ ██╔╝██╔════╝██║     ██╔═══██╗████╗ ████║██╔══██╗██╔═══██╗██║ ██╔╝
+█████╔╝ █████╗  ██║     ██║   ██║██╔████╔██║██████╔╝██║   ██║█████╔╝
+██╔═██╗ ██╔══╝  ██║     ██║   ██║██║╚██╔╝██║██╔═══╝ ██║   ██║██╔═██╗
+██║  ██╗███████╗███████╗╚██████╔╝██║ ╚═╝ ██║██║     ╚██████╔╝██║  ██╗
+╚═╝  ╚═╝╚══════╝╚══════╝ ╚═════╝ ╚═╝     ╚═╝╚═╝      ╚═════╝ ╚═╝  ╚═╝
+
+               L Y M A OBJECT ORIENTED PROGRAMMING
+```
+
 # Calculator Java
 
-A simple calculator application built with **Java Swing**.
-This project provides basic mathematical operations with a clean and simple user interface.
+simple calculator built with **Java Swing**.
+This project provides basic mathematical operations with a clean and simple UI.
 
 ## Features
 
@@ -41,6 +52,13 @@ Example:
 | Java Swing | Graphical User Interface |
 | AWT        | UI components and events |
 
+
+## Project Structure
+
+```text
+Calculator/
+└── SwingCalculator.java
+```
 ## Run
 
 Compile the program:
@@ -54,14 +72,3 @@ Run:
 ```bash
 java SwingCalculator
 ```
-
-## Project Structure
-
-```text
-Calculator/
-└── SwingCalculator.java
-```
-
-## Development
-
-The project was developed incrementally using Git and GitHub, with separate commits for each major feature.
