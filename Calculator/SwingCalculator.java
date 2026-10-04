@@ -348,7 +348,7 @@ public class SwingCalculator extends JFrame {
                         UIManager.getCrossPlatformLookAndFeelClassName());
             } catch (Exception ignored) {}
 
-            new pindah().setVisible(true);
+            new SwingCalculator().setVisible(true);
         });
     }
 }
