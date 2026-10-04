@@ -9,8 +9,6 @@
                L Y M A OBJECT ORIENTED PROGRAMMING
 ```
 
-# Calculator Java
-
 simple calculator built with **Java Swing**.
 This project provides basic mathematical operations with a clean and simple UI.
 
