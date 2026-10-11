@@ -27,7 +27,70 @@ This project provides basic mathematical operations with a clean and simple UI.
 | Keyboard            | Basic keyboard input support |
 | UI                  | Rounded calculator buttons   |
 
-## Percentage
+## Examples
+
+### Addition
+
+The addition calculation uses:
+
+```text
+FirstNumber + SecondNumber
+```
+
+Example:
+
+```text
+10 + 5 = 15
+25 + 15 = 40
+```
+
+### Subtraction
+
+The substraction calculation uses:
+
+```text
+FirstNumber - SecondNumber
+```
+
+Example:
+
+```text
+10 - 5 = 5
+25 - 15 = 10
+```
+
+### Multiplication
+
+The multiplication calculation uses:
+
+```text
+FirstNumber × SecondNumber
+```
+
+Example:
+
+```text
+10 × 5 = 50
+12 × 4 = 48
+```
+
+### Division
+
+The division calculation uses:
+
+```text
+FirstNumber ÷ SecondNumber
+```
+
+Example:
+
+```text
+10 ÷ 5 = 2
+100 ÷ 20 = 5
+```
+
+
+### Percentage
 
 The percentage calculation uses:
 
