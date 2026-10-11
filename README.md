@@ -50,13 +50,23 @@ Example:
 | Java Swing | Graphical User Interface |
 | AWT        | UI components and events |
 
-
 ## Project Structure
 
 ```text
 Calculator/
 └── SwingCalculator.java
 ```
+
+## Preview
+
+![Calculator](screenshots/calculator.png)
+
+## Requirements
+
+- Java Development Kit (JDK)
+- Java version compatible with the source code
+
+
 ## Run
 
 Compile the program:
@@ -70,3 +80,7 @@ Run:
 ```bash
 java SwingCalculator
 ```
+## Purpose
+
+This project was developed as an Object-Oriented
+Programming (OOP) project using Java Swing.
