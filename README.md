@@ -152,12 +152,11 @@ This project was developed as a group project for the Object-Oriented Programmin
 ```text
 - Siti Tara Maisura — 250810701100012
 - M.Dzaky Syraj — 250810701100051
-- Mirza Nur Akhyar — 250810701100087 as ([yuenothingelse](https://github.com/yuenothingelse))
+- Mirza Nur Akhyar — 250810701100087
 - T. Haikal Saputra — 250810701100112
 ```
-```text
-**Repository Maintainer:** [Mirza Nur Akhyar] ([yuenothingelse](https://github.com/yuenothingelse))
-```
+
+**Repository Maintainer:** [Mirza Nur Akhyar] as (https://github.com/yuenothingelse)
 
 The GitHub repository was initially created and managed by the repository maintainer to organize and publish the project source code
 
