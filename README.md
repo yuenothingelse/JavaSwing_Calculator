@@ -17,6 +17,8 @@
 simple calculator built with **Java Swing**.
 This project provides basic mathematical operations with a clean and simple UI. developed as a group project for the Object-Oriented Programming course.
 
+
+
 ## ✨ Features
 
 |         Feature          |             Description            |
@@ -32,7 +34,7 @@ This project provides basic mathematical operations with a clean and simple UI. 
 | ⌨️ Keyboard              | Basic keyboard input support       |
 | 🎨 UI                    | Rounded calculator buttons         |
 
-🖥️ Preview
+## 🖥️ Preview
 
 <p align="center">
   <img src="screenshots/calculator.png" alt="Calculator Preview" width="400">
@@ -154,23 +156,6 @@ Run:
 java SwingCalculator
 ```
 
-## ⌨️ Keyboard Support
-
-The calculator also provides basic keyboard input support.
-
-|        Key       |         Function        |
-| ---------------- | ----------------------- |
-| 0 - 9            | Enter numbers           |
-| +                | Addition                |
-| -                | Subtraction             |
-| *                | Multiplication          |
-| /                | Division                |
-| % / Negative     | Percentage              |
-| Enter            | Calculate               | 
-| Backspace        | Delete last digit       |
-| Esc              | Clear                   |
-
-
 ## 👥 Development Team
 
 This project was developed as a group project for the Object-Oriented Programming course.
@@ -182,15 +167,15 @@ This project was developed as a group project for the Object-Oriented Programmin
 | Mirza Nur Akhyar         |  250810701100087        |
 | T. Haikal Saputra        |  250810701100112        |
 
-# 📦 Repository Maintainer
+## 📦 Repository Maintainer
 
-**</>Mirza Nur Akhyar</>**
+Mirza Nur Akhyar 
 GitHub: @yuenothingelse
 
 The GitHub repository was initially created and managed by the repository
 maintainer to organize and publish the project source code
 
-# 🎯 Purpose
+## 🎯 Purpose
 
 This project was developed as an Object-Oriented Programming (OOP) project using Java Swing.
 The main purpose of this project is to apply fundamental object-oriented programming concepts while developing a functional desktop application with a graphical user interface.
@@ -204,8 +189,10 @@ Through this project, the development team practiced:
 - ⌨️ User input handling
 - 🧮 Mathematical operation implementation
 
+  
+
  <div align="center">
 
-Made with Java ☕ and a little bit of mathematics 
+## Made with Java ☕ and a little bit of mathematics 
 
 </div>
