@@ -36,9 +36,7 @@ This project provides basic mathematical operations with a clean and simple UI. 
 
 ## 🖥️ Preview
 
-<p align="center">
-  <img src="screenshots/calculator.png" alt="Calculator Preview" width="400">
-</p>
+<img src="screenshots/calculator.png" alt="Calculator Preview" width="400">
 
 ## Examples
 
@@ -156,6 +154,7 @@ Run:
 java SwingCalculator
 ```
 
+
 ## 👥 Development Team
 
 This project was developed as a group project for the Object-Oriented Programming course.
@@ -174,6 +173,7 @@ GitHub: @yuenothingelse
 
 The GitHub repository was initially created and managed by the repository
 maintainer to organize and publish the project source code
+
 
 ## 🎯 Purpose
 
