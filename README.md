@@ -1,35 +1,46 @@
-```text
-██╗  ██╗███████╗██╗      ██████╗ ███╗   ███╗██████╗  ██████╗ ██╗  ██╗
-██║ ██╔╝██╔════╝██║     ██╔═══██╗████╗ ████║██╔══██╗██╔═══██╗██║ ██╔╝
-█████╔╝ █████╗  ██║     ██║   ██║██╔████╔██║██████╔╝██║   ██║█████╔╝
-██╔═██╗ ██╔══╝  ██║     ██║   ██║██║╚██╔╝██║██╔═══╝ ██║   ██║██╔═██╗
-██║  ██╗███████╗███████╗╚██████╔╝██║ ╚═╝ ██║██║     ╚██████╔╝██║  ██╗
-╚═╝  ╚═╝╚══════╝╚══════╝ ╚═════╝ ╚═╝     ╚═╝╚═╝      ╚═════╝ ╚═╝  ╚═╝
+<div align="center">
 
-               L Y M A OBJECT ORIENTED PROGRAMMING
-```
+# Java Swing Calculator
+
+**Object Oriented Programming - using java swing**
+  
+<p>
+ <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java"/>
+  <img src="https://img.shields.io/badge/Java%20Swing-GUI-007396?style=for-the-badge&logo=java&logoColor=white" alt="Java Swing"/>
+  <img src="https://img.shields.io/badge/AWT-UI%20Components-5382A1?style=for-the-badge" alt="AWT"/>
+  <img src="https://img.shields.io/badge/OOP-Project-6C63FF?style=for-the-badge" alt="OOP"/>
+  <img src="https://img.shields.io/badge/Keyboard-Support-9C27B0?style=for-the-badge" alt="Keyboard Support"/>
+</p> 
+  
+</div>
 
 simple calculator built with **Java Swing**.
-This project provides basic mathematical operations with a clean and simple UI.
+This project provides basic mathematical operations with a clean and simple UI. developed as a group project for the Object-Oriented Programming course.
 
-## Features
+## ✨ Features
 
-| Feature             | Description                  |
-| ------------------- | ---------------------------- |
-| Addition            | `+`                          |
-| Subtraction         | `−`                          |
-| Multiplication      | `×`                          |
-| Division            | `÷`                          |
-| Percentage          | Calculate percentage values  |
-| Positive / Negative | Change number sign           |
-| Backspace           | Delete the last digit        |
-| Clear               | Reset calculator             |
-| Keyboard            | Basic keyboard input support |
-| UI                  | Rounded calculator buttons   |
+|         Feature          |             Description            |
+| ------------------------ | ---------------------------------- |
+| ➕ Addition              | Add two numbers                    |
+| ➖ Subtraction           | Subtract one number from another   |
+| ✖️ Multiplication        | Multiply two numbers               |
+| ➗ Division              | Divide one number by another       |
+| 💯 Percentage            | Calculate percentage values        |
+| 🔄 Positive / Negative   | Change number sign                 |
+| ⌫ Backspace              | Delete the last digit              |
+| 🧹 Clear                 | Reset calculator                   |
+| ⌨️ Keyboard              | Basic keyboard input support       |
+| 🎨 UI                    | Rounded calculator buttons         |
+
+🖥️ Preview
+
+<p align="center">
+  <img src="screenshots/calculator.png" alt="Calculator Preview" width="400">
+</p>
 
 ## Examples
 
-### Addition
+### ➕ Addition
 
 The addition calculation uses:
 
@@ -44,7 +55,7 @@ Example:
 25 + 15 = 40
 ```
 
-### Subtraction
+### ➖ Subtraction
 
 The substraction calculation uses:
 
@@ -59,7 +70,7 @@ Example:
 25 - 15 = 10
 ```
 
-### Multiplication
+### ✖️ Multiplication
 
 The multiplication calculation uses:
 
@@ -74,7 +85,7 @@ Example:
 12 × 4 = 48
 ```
 
-### Division
+### ➗ Division
 
 The division calculation uses:
 
@@ -90,7 +101,7 @@ Example:
 ```
 
 
-### Percentage
+### 💯 Percentage
 
 The percentage calculation uses:
 
@@ -105,13 +116,13 @@ Example:
 500 % 20 = 100
 ```
 
-## Technologies
+## 🛠️ Technologies
 
-| Technology | Usage                    |
-| ---------- | ------------------------ |
-| Java       | Programming language     |
-| Java Swing | Graphical User Interface |
-| AWT        | UI components and events |
+| Technology     | Usage                     |
+| -------------- | ------------------------- |
+| ☕ Java        | Programming language      |
+| 🖼️ Java Swing  | Graphical User Interface  |
+| ⚙️ AWT         | UI components and events  |
 
 ## Project Structure
 
@@ -120,17 +131,16 @@ Calculator/
 └── SwingCalculator.java
 ```
 
-## Preview
-
-![Calculator](screenshots/calculator.png)
-
 ## Requirements
 
-- Java Development Kit (JDK)
-- Java version compatible with the source code
+Before running the project, make sure you have:
+
+- ☕ Java Development Kit (JDK)
+- 💻 A Java version compatible with the source code
+- 🖥️ A desktop environment that supports Java Swing
 
 
-## Run
+## 🚀 Run the Project
 
 Compile the program:
 
@@ -144,22 +154,58 @@ Run:
 java SwingCalculator
 ```
 
-## Development Team
+## ⌨️ Keyboard Support
 
-This project was developed as a group project for the Object-Oriented Programming (OOP) course.
+The calculator also provides basic keyboard input support.
 
-**Team Members:**
-```text
-</> Siti Tara Maisura  250810701100012
-</> M.Dzaky Syraj      250810701100051
-</> Mirza Nur Akhyar   250810701100087
-</> T. Haikal Saputra  250810701100112
-```
+|        Key       |         Function        |
+| ---------------- | ----------------------- |
+| 0 - 9            | Enter numbers           |
+| +                | Addition                |
+| -                | Subtraction             |
+| *                | Multiplication          |
+| /                | Division                |
+| % / Negative     | Percentage              |
+| Enter            | Calculate               | 
+| Backspace        | Delete last digit       |
+| Esc              | Clear                   |
 
-**Repository Maintainer:** Mirza Nur Akhyar as https://github.com/yuenothingelse
 
-The GitHub repository was initially created and managed by the repository maintainer to organize and publish the project source code
+## 👥 Development Team
 
-## Purpose
+This project was developed as a group project for the Object-Oriented Programming course.
+
+| 👨‍💻 Team Member           | 🎓 Student ID          |
+| ------------------------ | ----------------------- |
+| Siti Tara Maisura        |  250810701100012        |
+| M. Dzaky Syraj           |  250810701100051        |
+| Mirza Nur Akhyar         |  250810701100087        |
+| T. Haikal Saputra        |  250810701100112        |
+
+# 📦 Repository Maintainer
+
+**</>Mirza Nur Akhyar</>**
+GitHub: @yuenothingelse
+
+The GitHub repository was initially created and managed by the repository
+maintainer to organize and publish the project source code
+
+# 🎯 Purpose
 
 This project was developed as an Object-Oriented Programming (OOP) project using Java Swing.
+The main purpose of this project is to apply fundamental object-oriented programming concepts while developing a functional desktop application with a graphical user interface.
+
+Through this project, the development team practiced:
+
+- 🧩 Object-oriented programming concepts
+- 🏗️ Java class and object design
+- 🎨 Graphical User Interface development
+- ⚡ Event handling
+- ⌨️ User input handling
+- 🧮 Mathematical operation implementation
+
+ <div align="center">
+
+Made with Java ☕ and a little bit of mathematics 
+
+</div>
